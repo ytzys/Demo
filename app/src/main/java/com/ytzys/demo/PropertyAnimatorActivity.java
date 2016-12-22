@@ -1,5 +1,8 @@
 package com.ytzys.demo;
 
+import android.animation.Animator;
+import android.animation.ObjectAnimator;
+import android.animation.PropertyValuesHolder;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.animation.AlphaAnimation;
@@ -29,6 +32,8 @@ public class PropertyAnimatorActivity extends Activity {
     Button alphaButton;
     @Bind(R.id.rotateAnimation)
     Button rotateButton;
+    @Bind(R.id.animator_button)
+    Button animatorButton;
     Animation animation;
 
     @Override
@@ -65,6 +70,17 @@ public class PropertyAnimatorActivity extends Activity {
     @OnClick(R.id.rotateAnimation)
     public void onClick3() {
         animation = new RotateAnimation(0, 180, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
+        animation.setFillAfter(true);
+        animation.setDuration(2000);
         tv.startAnimation(animation);
+    }
+
+    @OnClick(R.id.animator_button)
+    public void onClick4() {
+        PropertyValuesHolder pvhX = PropertyValuesHolder.ofFloat("scaleX", 1, 1.5f);
+        PropertyValuesHolder pvhY = PropertyValuesHolder.ofFloat("scaleY", 1, 1.5f);
+        Animator animator = ObjectAnimator.ofPropertyValuesHolder(tv, pvhX, pvhY);
+        animator.setDuration(2000);
+        animator.start();
     }
 }

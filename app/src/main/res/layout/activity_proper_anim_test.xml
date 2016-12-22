@@ -28,6 +28,11 @@
         android:layout_height="wrap_content"
         android:text="AlphaAnimation" />
 
+    <Button
+        android:id="@+id/animator_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animator"/>
 
     <ImageView
         android:id="@+id/imageview"

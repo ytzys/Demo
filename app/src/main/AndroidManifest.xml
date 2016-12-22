@@ -40,6 +40,8 @@
         <activity
             android:name=".PropertyAnimatorActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".ClickThroughTestActivity"></activity>
     </application>
 
 </manifest>

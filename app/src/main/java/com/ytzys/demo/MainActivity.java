@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
     RelativeLayout popwin;
     @Bind(R.id.animation_test)
     Button animation_test;
+    @Bind(R.id.click_through_test)
+    Button clickThroughButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,6 +90,12 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.animation_test)
     public void animationFun() {
         Intent intent = new Intent(MainActivity.this, PropertyAnimatorActivity.class);
+        startActivity(intent);
+    }
+
+    @OnClick(R.id.click_through_test)
+    public void clickThroughTest() {
+        Intent intent = new Intent(MainActivity.this, ClickThroughTestActivity.class);
         startActivity(intent);
     }
 }
