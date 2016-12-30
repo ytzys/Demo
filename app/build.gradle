@@ -61,6 +61,7 @@ dependencies {
     compile rootProject.ext.libNumberProgressBar
     compile rootProject.ext.libRxBus
     compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+    compile 'com.mcxiaoke.volley:library:1.0.19'
 //    compile files('libs/cyberplayer-sdk.jar')
 //    compile files('libs/SohuPlayerSDK_201512081716.jar')
 }

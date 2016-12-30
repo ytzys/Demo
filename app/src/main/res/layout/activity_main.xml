@@ -48,6 +48,10 @@
         android:layout_height="wrap_content"
         android:text="点击穿透测试" />
 
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
     <RelativeLayout
         android:id="@+id/popwin"
         android:layout_width="wrap_content"
