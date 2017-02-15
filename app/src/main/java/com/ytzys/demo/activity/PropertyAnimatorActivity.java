@@ -1,4 +1,4 @@
-package com.ytzys.demo;
+package com.ytzys.demo.activity;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
@@ -12,6 +12,8 @@ import android.view.animation.ScaleAnimation;
 import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
+
+import com.ytzys.demo.R;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

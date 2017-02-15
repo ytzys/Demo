@@ -1,9 +1,11 @@
-package com.ytzys.demo;
+package com.ytzys.demo.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.ytzys.demo.R;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

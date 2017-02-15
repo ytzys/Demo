@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="tab_color">#eef5f5f5</color>
     <color name="alpha_color">#55d9a5a5</color>
+
+    <color name="black_overlay">#66000000</color>
 </resources>
