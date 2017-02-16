@@ -2,13 +2,11 @@ package com.ytzys.demo.Presenter;
 
 import android.util.Log;
 
-import com.ytzys.demo.Bean.HomePageResult;
+import com.ytzys.demo.bean.HomePageResult;
 import com.ytzys.demo.http.MyRetrofit;
 import com.ytzys.demo.http.interfaces.HomePageInterface;
-import com.ytzys.demo.iview.IBaseView;
 import com.ytzys.demo.iview.IHomeView;
 
-import rx.Observable;
 import rx.Subscriber;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;

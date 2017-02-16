@@ -16,6 +16,7 @@ import butterknife.ButterKnife;
 public abstract class BaseActivity<T extends BasePresenter> extends AppCompatActivity implements IBaseView {
 
     T presenter;
+    String TAG = getClass().getName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

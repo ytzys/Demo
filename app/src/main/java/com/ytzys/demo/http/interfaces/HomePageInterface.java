@@ -1,6 +1,6 @@
 package com.ytzys.demo.http.interfaces;
 
-import com.ytzys.demo.Bean.HomePageResult;
+import com.ytzys.demo.bean.HomePageResult;
 
 import retrofit2.http.GET;
 import retrofit2.http.Header;

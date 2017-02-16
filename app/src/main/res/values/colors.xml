@@ -7,4 +7,5 @@
     <color name="alpha_color">#55d9a5a5</color>
 
     <color name="black_overlay">#66000000</color>
+    <color name="black">#000000</color>
 </resources>

@@ -8,13 +8,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.ytzys.demo.Bean.HomePageResult;
+import com.ytzys.demo.bean.HomePageResult;
 import com.ytzys.demo.R;
 import com.ytzys.demo.utils.GlideUtil;
 
-import org.w3c.dom.Text;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -48,7 +45,7 @@ public class HomeRecommendAdapter extends RecyclerView.Adapter {
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.layout_recommend, parent, false);
+        View view = LayoutInflater.from(context).inflate(R.layout.recyclerview_recommend, parent, false);
         ViewHoder viewHolder = new ViewHoder(view);
         return viewHolder;
     }
